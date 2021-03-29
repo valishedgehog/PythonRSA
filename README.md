@@ -5,13 +5,13 @@ Python 3 RSA algorithm implementation
 
 - Get help message
 ```
-python3 rsa.py --help
+python rsa.py --help
 ```
 
 - Generate rsa public and private keys
 Example of generation 2048 bit keys in ```./keys/key.pub``` and ```./keys/key``` files
 ```
-python3 rsa.py generate-key -l 2048 -o ./keys/key
+python rsa.py generate-key -l 2048 -o ./keys/key
 ```
 
 - Encrypt text with generated private key
