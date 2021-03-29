@@ -1,6 +1,14 @@
 # PythonRSA
 Python 3 RSA algorithm implementation
 
+## Requirements
+- Click 7
+
+Install:
+```
+pip install -r requirements.txt
+```
+
 ## Usage
 
 - Get help message
