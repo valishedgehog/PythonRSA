@@ -47,6 +47,7 @@ class PrimeNumberTests:
 
         return True
 
+    @staticmethod
     def simpleIsPrimeTest(number: int, tests_count: int) -> bool:
         """ Простой тест на простое число """
 

@@ -5,7 +5,7 @@ import math
 
 class PrimeNumberGenerator:
     def __init__(self, length=None, tests_count=None):
-        self.tests_count = length if tests_count is None else tests_count
+        self.tests_count = 100 if tests_count is None else tests_count
         self.length = 1024 if length is None else length
 
     def isPrime(self, number: int) -> bool:
