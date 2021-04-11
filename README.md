@@ -34,3 +34,8 @@ Keys are located in folder ```./keys```, ```crypt_text.txt``` - input encrypted 
 ```
 python.exe rsa.py decrypt -i crypt_text.txt -o output.txt -k ./keys/key
 ```
+
+## Run tests
+```
+python src/tests/TestPrimeNumberTests.py
+```
