@@ -51,7 +51,7 @@ class PrimeNumberTests:
     def simpleIsPrimeTest(number: int, tests_count: int) -> bool:
         """ Простой тест на простое число """
 
-        for i in range(1, int(math.sqrt(number))):
+        for i in range(2, int(math.sqrt(number))):
             if number % i == 0:
                 return False
         

@@ -27,6 +27,8 @@ class TestPrimeNumberTests:
             numbers = generator.getPrimes(NUMBERS_COUNT)
             print("Start test with {} number of length {} bit".format(NUMBERS_COUNT, length))
             for test_name, test_func in test_functions.items():
+                if length >= 128 and test_name == 'Simple':
+                    continue
                 print("Testing with {} test".format(test_name))
                 self.test(numbers, test_func)
             
