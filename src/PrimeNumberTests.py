@@ -33,7 +33,7 @@ class PrimeNumberTests:
             r //= 2
 
         for _ in range(tests_count):
-            a = randrange(2, number - 1)
+            a = random.randint(2, number - 1)
             x = pow(a, r, number)
             if x != 1 and x != number - 1:
                 j = 1
@@ -47,7 +47,7 @@ class PrimeNumberTests:
 
         return True
 
-    def simpleIsPrimeTest(number: int) -> bool:
+    def simpleIsPrimeTest(number: int, tests_count: int) -> bool:
         """ Простой тест на простое число """
 
         for i in range(1, int(math.sqrt(number))):

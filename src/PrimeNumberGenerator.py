@@ -9,7 +9,7 @@ class PrimeNumberGenerator:
         self.length = 1024 if length is None else length
 
     def isPrime(self, number: int) -> bool:
-        return PrimeNumberTests.solovayStrassenTest(number, self.tests_count)
+        return PrimeNumberTests.millerRobinTest(number, self.tests_count)
 
     def generatePrimeCandidate(self):
         """ Сгенерировать случайное нечетное число длинной self.length бит """

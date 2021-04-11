@@ -7,6 +7,7 @@ Python 3 RSA algorithm implementation
 Install:
 ```
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ## Usage
