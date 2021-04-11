@@ -3,9 +3,9 @@ from src.PrimeNumberGenerator import PrimeNumberGenerator
 from TestDecorator import benchmark
 
 DELIMETER = "==============================================="
-TESTS_COUNT = 1000
+TESTS_COUNT = 100
 NUMBERS_COUNT = 10
-LENGTH_LIST = [8, 16, 32, 128, 1024]
+LENGTH_LIST = [8, 16, 32, 128, 512, 1024]
 
 class TestPrimeNumberTests:
     @benchmark
